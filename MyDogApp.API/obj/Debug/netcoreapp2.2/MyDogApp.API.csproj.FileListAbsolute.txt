@@ -1,0 +1,17 @@
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.csprojAssemblyReference.cache
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.RazorAssemblyInfo.cache
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.RazorAssemblyInfo.cs
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.AssemblyInfoInputs.cache
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.AssemblyInfo.cs
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\appsettings.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\MyDogApp.API.deps.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\MyDogApp.API.runtimeconfig.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\MyDogApp.API.runtimeconfig.dev.json
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\MyDogApp.API.dll
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\MyDogApp.API.pdb
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.RazorTargetAssemblyInfo.cache
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.dll
+D:\QLNV\eMyDogApp\MyDogApp.API\obj\Debug\netcoreapp2.2\MyDogApp.API.pdb
+D:\QLNV\eMyDogApp\MyDogApp.API\bin\Debug\netcoreapp2.2\Data\UserSeedData.json
