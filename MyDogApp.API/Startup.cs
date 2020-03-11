@@ -40,7 +40,9 @@ namespace MyDogApp.API
                 x.UseSqlServer(Configuration.GetConnectionString("DevConnection"));
             });
             services.AddCors();
-            services.AddAutoMapper(typeof(DatingRepository).Assembly);
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
+            //services.AddTransient<Seed>();
+            services.AddAutoMapper(typeof(Startup));
             services.AddScoped<IAuthRepository,AuthRepository>();
             services.AddScoped<IDatingRepository,DatingRepository>();
 
@@ -89,7 +91,8 @@ namespace MyDogApp.API
             }
 
             app.UseHttpsRedirection();
-            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            app.UseCors(x => x.WithOrigins("http://localhost:4200")
+                .AllowAnyHeader().AllowAnyMethod().AllowCredentials());
             app.UseAuthentication();
             app.UseMvc();
         }
