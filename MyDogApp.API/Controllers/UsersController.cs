@@ -30,7 +30,7 @@ namespace MyDogApp.API.Controllers
 
             var userToReturn = _mapper.Map<IEnumerable<UserForListDto>>(users);
 
-            return Ok(users);
+            return Ok(userToReturn);
         }
 
         [HttpGet("{id}")]
