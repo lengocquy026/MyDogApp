@@ -18,6 +18,21 @@ namespace MyDogApp.API
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            // var host = CreateWebHostBuilder(args).Build();
+            // using(var scope = host.Services.CreateScope()) {
+            //     var sevices = scope.ServiceProvider;
+            //     try{
+            //         var context = sevices.GetRequiredService<DataContext>();
+            //         context.Database.Migrate();
+            //         Seed.SeedUsers(context);
+            //     }
+            //     catch(Exception ex) {
+            //         var logeer = sevices.GetRequiredService<ILogger<Program>>();
+            //         logeer.LogError(ex, "Error");
+            //     }
+            // }
+
+            // host.Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

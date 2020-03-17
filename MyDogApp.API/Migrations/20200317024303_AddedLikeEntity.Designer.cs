@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyDogApp.API.Data;
 
 namespace MyDogApp.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200317024303_AddedLikeEntity")]
+    partial class AddedLikeEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,7 +29,7 @@ namespace MyDogApp.API.Migrations
 
                     b.HasKey("LikerId", "LikeeId");
 
-                    b.HasAlternateKey("LikeeId", "LikerId");
+                    b.HasIndex("LikeeId");
 
                     b.ToTable("Likes");
                 });
@@ -96,14 +98,14 @@ namespace MyDogApp.API.Migrations
 
             modelBuilder.Entity("MyDogApp.API.Models.Like", b =>
                 {
-                    b.HasOne("MyDogApp.API.Models.User", "Likee")
-                        .WithMany("Likers")
+                    b.HasOne("MyDogApp.API.Models.User", "Liker")
+                        .WithMany("Likees")
                         .HasForeignKey("LikeeId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("MyDogApp.API.Models.User", "Liker")
-                        .WithMany("Likees")
-                        .HasForeignKey("LikerId")
+                    b.HasOne("MyDogApp.API.Models.User", "Likee")
+                        .WithMany("Likers")
+                        .HasForeignKey("LikeeId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
 

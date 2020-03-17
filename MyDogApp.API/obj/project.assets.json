@@ -12172,11 +12172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\QLNV\\eMyDogApp\\MyDogApp.API\\MyDogApp.API.csproj",
+      "projectUniqueName": "D:\\QLNV\\MyDogApp\\MyDogApp.API\\MyDogApp.API.csproj",
       "projectName": "MyDogApp.API",
-      "projectPath": "D:\\QLNV\\eMyDogApp\\MyDogApp.API\\MyDogApp.API.csproj",
+      "projectPath": "D:\\QLNV\\MyDogApp\\MyDogApp.API\\MyDogApp.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\QLNV\\eMyDogApp\\MyDogApp.API\\obj\\",
+      "outputPath": "D:\\QLNV\\MyDogApp\\MyDogApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
